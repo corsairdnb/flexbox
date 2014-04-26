@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         stylus: {
             compile: {
                 files: {
-                    'css/main.css': ['styl/*.styl']
+                    'css/main.css': ['styl/main.styl']
                 },
                 options: {
                     compress: false
