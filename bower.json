@@ -1,0 +1,23 @@
+{
+  "name": "flexbox",
+  "version": "0.0.1",
+  "homepage": "https://github.com/corsairdnb/flexbox",
+  "authors": [
+    "corsairdnb <dmitry.rychkov@gmail.com>"
+  ],
+  "description": "test",
+  "main": "index.html",
+  "keywords": [
+    "css",
+    "flexbox"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,14 +1,30 @@
 @import flexbox
 
-html, body
-  height 100%
+*
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+html, body, .wrapper
+	height 100%
 
 body
-  display flex
-  flex-direction column
+	margin 0
+	background #fff
+	font 18px/22px Arial, "Helvetica Neue", sans-serif
+
+.wrapper
+	display flex
+	flex-direction column
 	justify-content space-between
 
 header
 	background #4ea3ff
+	color #fff
 
-@import custom
+footer
+	background #666666
+	color #fff
+
+.container
+	padding 1%
